@@ -18,43 +18,43 @@ https://www.youtube.com/watch?v=j8qW5poBkEU
 - **[Agent Search *(previously Vertex AI Search, Generative AI App Builder)*](https://docs.cloud.google.com/generative-ai-app-builder/docs/try-enterprise-search)** - Semantic search engines tailored for your data.
 - **[Vector Search 2.0](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/embeddings/vector-search-2-intro.ipynb)** - High-scale, low-latency managed vector database.
 
-# Protocols & Interoperability
+## Protocols & Interoperability
 
 Open standards to help agents communicate, perform actions, and generate interfaces.
 
-* [Agent2Agent (A2A)](https://a2a-protocol.org/) - Secure protocol for multi-agent coordination and handoffs.
-* [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Universal standard for connecting models to external tools.
-* [Agent-to-UI (A2UI)](https://a2ui.org/) - Protocol for dynamic, agent-driven user interface generation.
-* [Agent Payments Protocol (AP2)](https://ap2-protocol.org/) - Secure standard for automated financial transactions by agents.
-* [Universal Commerce Protocol (UCP)](https://ucp.dev/) - Unified standard for managing e-commerce and retail operations.
+- [Agent2Agent (A2A)](https://a2a-protocol.org/) - Secure protocol for multi-agent coordination and handoffs.
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Universal standard for connecting models to external tools.
+- [Agent-to-UI (A2UI)](https://a2ui.org/) - Protocol for dynamic, agent-driven user interface generation.
+- [Agent Payments Protocol (AP2)](https://ap2-protocol.org/) - Secure standard for automated financial transactions by agents.
+- [Universal Commerce Protocol (UCP)](https://ucp.dev/) - Unified standard for managing e-commerce and retail operations.
 
 ---
 
-# Scale - Reliability over time
+## Scale - Reliability over time
 
-* [Agent Runtime (previously Agent Engine, Reasoning Engine)](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/agent-engine/intro_agent_engine.ipynb) - Managed platform for hosting and serving agentic code.
-* [Agent Sessions](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sessions) - Built-in state management for multi-turn, long-running interactions.
-* [Agent Memory Bank](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/agents/agent_engine/memory_bank/get_started_with_memory_bank.ipynb) - Persistent, long-term semantic memory for personalized agent experiences.
-* [Agent Sandbox (Code Execution)](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/agents/agent_engine/tutorial_get_started_with_code_execution.ipynb) - Secure, isolated environment for code execution and computer use.
-
----
-
-# Govern - Trust as a feature
-
-* [Agent Gateway](https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/gateways/agent-gateway-overview) - Central control point for authentication, authorization, and rate-limiting. (Private Preview)
-* [Agent Identity](https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/agent-identity-overview) - Unique credentials for agentic identities.
-* [Agent Policies](https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/policies/overview) - IAM Policies specifically for agents. (Private Preview)
-* [Agent Registry](https://docs.cloud.google.com/agent-registry/overview) - Enterprise catalog for managing and auditing approved tools and agents.
-* [Model Armor](https://docs.cloud.google.com/model-armor/overview) - Real-time protection against prompt injections, PII leaks, and toxic content.
+- [Agent Runtime (previously Agent Engine, Reasoning Engine)](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/agent-engine/intro_agent_engine.ipynb) - Managed platform for hosting and serving agentic code.
+- [Agent Sessions](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/sessions) - Built-in state management for multi-turn, long-running interactions.
+- [Agent Memory Bank](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/agents/agent_engine/memory_bank/get_started_with_memory_bank.ipynb) - Persistent, long-term semantic memory for personalized agent experiences.
+- [Agent Sandbox (Code Execution)](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/agents/agent_engine/tutorial_get_started_with_code_execution.ipynb) - Secure, isolated environment for code execution and computer use.
 
 ---
 
-# Optimize - Evaluation and enhancement
+## Govern - Trust as a feature
 
-* [Agent Evaluation](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/evaluation/create_agent_and_run_evaluation.ipynb) - Framework for testing complex reasoning and tool-use accuracy.
-* [Agent Simulation](https://docs.cloud.google.com/gemini-enterprise-agent-platform/optimize/evaluation/evaluate-simulated) - Generate synthetic user interactions to stress-test agent behavior.
-* [Agent Observability](https://docs.cloud.google.com/gemini-enterprise-agent-platform/optimize/observability/overview) - Forensic visibility into agent thought processes and tool calls.
-* [Agent Optimizer](https://docs.cloud.google.com/gemini-enterprise-agent-platform/optimize/evaluation/optimize-agent) - Automate the improvement of agent prompts based on failure analysis.
+- [Agent Gateway](https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/gateways/agent-gateway-overview) - Central control point for authentication, authorization, and rate-limiting. (Private Preview)
+- [Agent Identity](https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/agent-identity-overview) - Unique credentials for agentic identities.
+- [Agent Policies](https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/policies/overview) - IAM Policies specifically for agents. (Private Preview)
+- [Agent Registry](https://docs.cloud.google.com/agent-registry/overview) - Enterprise catalog for managing and auditing approved tools and agents.
+- [Model Armor](https://docs.cloud.google.com/model-armor/overview) - Real-time protection against prompt injections, PII leaks, and toxic content.
+
+---
+
+## Optimize - Evaluation and enhancement
+
+- [Agent Evaluation](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/evaluation/create_agent_and_run_evaluation.ipynb) - Framework for testing complex reasoning and tool-use accuracy.
+- [Agent Simulation](https://docs.cloud.google.com/gemini-enterprise-agent-platform/optimize/evaluation/evaluate-simulated) - Generate synthetic user interactions to stress-test agent behavior.
+- [Agent Observability](https://docs.cloud.google.com/gemini-enterprise-agent-platform/optimize/observability/overview) - Forensic visibility into agent thought processes and tool calls.
+- [Agent Optimizer](https://docs.cloud.google.com/gemini-enterprise-agent-platform/optimize/evaluation/optimize-agent) - Automate the improvement of agent prompts based on failure analysis.
   
 <img width="1122" height="671" alt="image" src="https://github.com/user-attachments/assets/4d83765d-a033-4104-a221-c5990f78618c" />
 

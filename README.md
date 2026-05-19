@@ -1,6 +1,4 @@
-https://github.com/Google-Cloud-AI/agent-platform
-</br>
-https://www.youtube.com/watch?v=j8qW5poBkEU
+# Notes on Gemini Enterprise Agent Platform (previously Vertex AI).
 
 # 🛠️ Build - Turning code into agents
 
@@ -150,3 +148,6 @@ Open standards to help agents communicate, perform actions, and generate interfa
 
 </br>
 
+https://github.com/Google-Cloud-AI/agent-platform
+</br>
+https://www.youtube.com/watch?v=j8qW5poBkEU
